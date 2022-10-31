@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-favicon">
+      <rect width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="200" cy="200" r="200" fill="#1e1e1e"/>
+    <path id="Union_1" data-name="Union 1" d="M31.2,196.749q-17.441-17.439-17.44-46.216V56.794h31.61V150.97q0,15.259,8.5,23.98t22.89,8.72q14.388,0,22.891-8.72t8.5-23.98V56.794h31.61v93.739q0,28.558-17.658,46.107T76.76,214.189Q48.638,214.189,31.2,196.749Z" transform="translate(123.242 64.206)" fill="#9899ad" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
