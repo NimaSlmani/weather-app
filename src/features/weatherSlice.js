@@ -56,8 +56,6 @@ export const getCityLocation = (city,limit) => async (dispatch) => {
         dispatch(setOpenSidebar(false))
         dispatch(setLoading(false))
         dispatch(getTimezone(res.data[0].lat,res.data[0].lon))
-        console.log(res.data[0].lat,res.data[0].lon);
-        console.log(res);
     }catch (err) {
         console.log(err)
     }
