@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade,Autoplay } from 'swiper';
+import { Autoplay,EffectCoverflow } from 'swiper';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay'
 
@@ -7,12 +7,9 @@ import image1 from "../assets/images/1.jpg";
 import image2 from "../assets/images/2.jpg";
 import image3 from "../assets/images/3.jpg";
 import image4 from "../assets/images/4.jpg";
-import image5 from "../assets/images/5.jpg";
-import image6 from "../assets/images/6.jpg";
-import image7 from "../assets/images/7.jpg";
 
 const Carousel = () => {
-    let images =[image1,image2,image3,image4,image5,image6,image7]
+    let images =[image1,image2,image3,image4]
     return (
       <Swiper
           spaceBetween={0}
@@ -21,7 +18,7 @@ const Carousel = () => {
               delay: 10000, 
               disableOnInteraction: false,
           }}
-          modules={[EffectFade,Autoplay]} effect="fade"
+          modules={[EffectCoverflow,Autoplay]} effect="coverflow"
       >
         {
             images.map((image,index)=>

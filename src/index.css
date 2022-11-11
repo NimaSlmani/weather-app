@@ -19,6 +19,9 @@
     .center {
       @apply flex items-center justify-center;
     }
+    .overlay::before{
+      @apply content-none absolute w-full h-full top-0 left-0 bg-slate-900/90;
+    }
     html,body{
       @apply font-reqular;
     }
