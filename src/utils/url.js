@@ -1,4 +1,4 @@
-export const openweathermap_url = "http://api.openweathermap.org";
+export const openweathermap_url = "https://api.openweathermap.org";
 export const openweathermap_api_key = "94fd8f2e96de6f2bfefc89c23bf748c4"
 
 export const timezone_url = "https://api.ipgeolocation.io/timezone";
