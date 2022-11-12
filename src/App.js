@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import { useDispatch,useSelector } from "react-redux";
 
-import Layout from "./components/Layout"
-import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
 
 import {getCityLocation} from "./features/weatherSlice"
 
+import Layout from "./components/Layout";
+
 import 'swiper/css';
+
 
 const App = () => {
   let dispatch = useDispatch()
@@ -17,10 +17,7 @@ const App = () => {
   },[])
 
   return (
-    <Layout>
-      <Sidebar/>
-      <Home/>      
-    </Layout>
+    <Layout>dsjkvs</Layout>
   )
 }
 
