@@ -25,7 +25,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className={`w-full h-screen overflow-y-auto bg-slate-900 lg:backdrop-blur-md lg:backdrop-brightness-90 absolute text-white p-[30px] pt-0 ${openSidebar ? "right-0" : "right-[-100%]"} lg:bg-black transition-all duration-300 ease-in-out top-0 lg:right-0 lg:w-1/3 xl:w-1/4 `}>
+    <div className={`w-full h-screen overflow-y-auto bg-slate-900 lg:backdrop-blur-md lg:backdrop-brightness-90 absolute text-white p-[30px] pt-0 ${openSidebar ? "right-0" : "right-[-100%]"} lg:bg-black/25 transition-all duration-300 ease-in-out top-0 lg:right-0 lg:w-1/3 xl:w-1/4 `}>
         <div className="absolute top-0 right-0">
             <Button Icon={BiSearch} click={()=>dispatch(getCityLocation(city_name,1))} cls="hidden lg:flex" />
             <Button Icon={RiCloseFill} click={()=>dispatch(setOpenSidebar(false))} cls="lg:hidden" />
