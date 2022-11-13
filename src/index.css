@@ -25,4 +25,7 @@
     html,body{
       @apply font-reqular;
     }
+    input{
+      outline: none;
+    }
 }

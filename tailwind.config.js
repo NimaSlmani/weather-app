@@ -11,6 +11,9 @@ module.exports = {
       colors : {
         orange : '#f97316',
         red : '#ef4444'
+      },
+      backgroundImage: {
+        'weather-background': "url('/src/assets/images/1.jpg')",
       }
     },
   },

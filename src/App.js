@@ -4,7 +4,7 @@ import { useDispatch,useSelector } from "react-redux";
 
 import {getCityLocation} from "./features/weatherSlice"
 
-import Layout from "./components/Layout";
+import Home from "./pages/Home";
 
 import 'swiper/css';
 
@@ -17,7 +17,7 @@ const App = () => {
   },[])
 
   return (
-    <Layout>dsjkvs</Layout>
+    <Home/>
   )
 }
 
